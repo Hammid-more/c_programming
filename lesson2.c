@@ -2,16 +2,10 @@
 
 int main()
 {
-	int x;
-	x = 10;
-
-	//Expression - Anything that can be evaluated (to 1 value)
-	//statement
-	//declaration
-	//initialization
+	int x = 10;
 	
 	int y = x / 2;
 
-	printf("Hello world!\n")
+	printf("%i\n",y);
 	return 0;
-} 
+}
