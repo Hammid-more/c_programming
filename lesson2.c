@@ -2,10 +2,17 @@
 
 int main()
 {
-	int x = 10;
-	
-	int y = x / 2;
+	int first;
+	int second;
+	printf("Give me a number; ");
+	scanf("%i", & first);
 
-	printf("%i\n",y);
+	printf("Enter another number; ");
+	scanf("%i", &second);
+
+	int sum = first + second;
+
+	printf("The sum of %i and %i = %i\n", first, second, sum);
+	
 	return 0;
 }
